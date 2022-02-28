@@ -80,11 +80,11 @@ function calc() {
       inputVal.innerText = displayVal;
       break;
     case "-":
-      displayVal = parseFloat(newVal) + parseFloat(inputVal.innerText);
+      displayVal = parseFloat(newVal) - parseFloat(inputVal.innerText);
       inputVal.innerText = displayVal;
       break;
     case "/":
-      displayVal = parseFloat(newVal) - parseFloat(inputVal.innerText);
+      displayVal = parseFloat(newVal) / parseFloat(inputVal.innerText);
       inputVal.innerText = displayVal;
       break;
     case "X":
